@@ -1,6 +1,6 @@
 #Ejercicio 8
 #Se toman las horas trabajadas y el precio a la que se le pagan
-horasTrabajadas = int(input("Ingrese las horas semanales trabajas: "))
+horasTrabajadas = int(input("Ingrese las horas semanales trabajadas: "))
 precio = float(input("Ingrese el precio que se le paga por hora: "))
 
 #Se obtienen los salarios mensuales y semanales a 4.2 semanas
