@@ -12,17 +12,3 @@ elif num3>num2 and num3>num3 and num3>num4:
 else:
     print("numero mayor: ", num4)
 
-
-
-#if num1 > num2:
-#       if num1 > num3:
-#          if num1 > num4:
-#           print("El numero mayor es: ", num1)
-#elif num2 > num3:
-#       if num2 > num4:
-#   print("El numero mayor es: ", num2)
-#elif num3 > num4:
-#   print("El numero mayor es: ", num3)
-#else:
-#    print("El numero mayor es: ", num4)
-
