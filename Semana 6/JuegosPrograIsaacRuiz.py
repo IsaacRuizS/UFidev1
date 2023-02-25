@@ -8,6 +8,7 @@ for indice in range(1,6):
     print("Vuelta numero: ",indice)
     vuelta1 = int(input("Digite el timepo la vuelta: "))
     pits1 = int(input("Ingrese el tiempo de pits: "))
+    #A las variables inicializadas anteriormente se le suman los valores por vuelta y pits ingresados
     sumaVuelta += vuelta1
     sumaPits += pits1
 
