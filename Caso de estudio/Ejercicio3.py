@@ -1,4 +1,4 @@
-#Parte 2
+#Parte 2, ejercicio 2
 
 #Se inician las variables para ingresar al while y para sumas la cadenas y luego mostrarlas
 numeroRecorridos = 1
