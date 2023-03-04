@@ -1,4 +1,4 @@
-#Primera parte
+#Primera parte, segundo ejercicio
 
 #Solicitan los datos
 year = int(input("Ingrese un año: "))
