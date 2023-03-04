@@ -10,4 +10,11 @@ cantidadAños = float(input("Ingrese la cantidad de años: "))
 capital = capitalAhorro*(1+tasaInteresAnual/100)**cantidadAños
 
 #Se muestra en pantalla el resultado del capital a la tasa de interes ingresada en los años ingresados
-print("Capital ahorrado ", capitalAhorro, " al ", tasaInteresAnual, " se convierte en: ", round(capital, 3))
+print("Capital TOTAL ahorrado ", capitalAhorro, " al ", tasaInteresAnual, " se convierte en: ", round(capital))
+
+#se recorre la cantidad de años para revisar el capital por cada año que pasa
+for indice in range(1, int(cantidadAños+1)):
+    # Se calcula el capital por año
+    capital =capitalAhorro*(1+tasaInteresAnual/100)**indice
+    # Se muestra en pantalla el resultado del capital a la tasa de interes ingresada por cada año
+    print("En el año: ", indice, " el capital es de: ", round(capital))
