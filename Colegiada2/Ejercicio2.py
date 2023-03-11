@@ -3,6 +3,7 @@ valorPantalon = 0
 descuento = 0
 montoTotal = 0
 totalPantalones= 0
+sumaTutal = 0
 
 #ciclo para los 5 cliente
 for index in range(5):
@@ -20,6 +21,7 @@ for index in range(5):
         montoTotal -= descuento
         print("total del decuento 12.5%: ", descuento)
         print("Total aplicando el descuento: ", montoTotal)
+        sumaTutal+=montoTotal
         #12.5
     elif(totalPantalones >=6 and totalPantalones <= 8):
         #20
@@ -27,9 +29,14 @@ for index in range(5):
         montoTotal -= descuento
         print("total del decuento 12.5%: ", descuento)
         print("Total aplicando el descuento: ", montoTotal)
+        sumaTutal+=montoTotal
+
     elif(totalPantalones > 8):
         #31.5
         descuento = montoTotal * 0.325
         montoTotal -= descuento
         print("total del decuento 12.5%: ", descuento)
         print("Total aplicando el descuento: ", montoTotal)
+        sumaTutal+=montoTotal
+
+print("El total pagado por los clientes es: ", sumaTutal)
