@@ -1,0 +1,4 @@
+Isaac,80.0,C
+Josue,95.0,B
+Andrew,96.0,A
+Sebas,91.0,B
